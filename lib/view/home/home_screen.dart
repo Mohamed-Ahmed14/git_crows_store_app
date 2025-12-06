@@ -46,13 +46,13 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Stack(
                 //alignment: AlignmentDirectional.topEnd,
                 children: [
-                  Icon(Icons.notifications_none_rounded,size: 85.w,),
+                  Icon(Icons.notifications_none_rounded),
                   PositionedDirectional(
                     top: 10.h,
                     end: 10.w,
                     child: CircleAvatar(
                       backgroundColor: AppColors.red,
-                      radius: 16.r,
+                      radius: 12.r,
                     ),
                   ),
                 ],
@@ -123,7 +123,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                           Padding(
                             padding:  EdgeInsets.all(30.0.w),
-                            child: Text('Winter \nCollection \n2025',
+                            child: Text('Winter \nCollection \n2026',
                               style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                                 fontWeight: FontWeight.bold,
                                 color: AppColors.white,

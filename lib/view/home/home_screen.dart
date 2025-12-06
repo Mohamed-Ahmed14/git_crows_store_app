@@ -1,5 +1,5 @@
 import 'package:clothing_store/view/widgets/custom_progress_indicator.dart';
-import 'package:clothing_store/view/home/basic_category_widget.dart';
+
 import 'package:clothing_store/view/home/section_screen.dart';
 import 'package:clothing_store/view/home/product_widget.dart';
 import 'package:clothing_store/view_model/cubit/home_cubit/home_cubit.dart';
